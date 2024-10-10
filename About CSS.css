@@ -1,0 +1,64 @@
+body{
+    background-image: url("background image 3.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}  
+banner * {
+    color: white;
+}
+banner .logo{
+    float: left;
+}
+banner li{
+    float: right;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+banner li a{
+    float: right;
+    display: block;
+    padding: 21px;
+    font-size: 0.8cm;
+    text-decoration: none;
+    font-weight: bold;
+}
+.body1 {
+    background: rgba(255, 255, 255, 0.1);
+   backdrop-filter: blur(10px);
+   width: 1250px;
+   height: auto;
+   border-radius: 15px;
+   padding: 10px;
+   border: 1px solid rgba(255, 255, 255, 0.2);
+   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.37);
+   text-align: center;
+   position: absolute;
+   display: flex;
+   flex-direction: column;
+   top: 11.5%;
+   left: 50%;
+   transform: translate(-50%);
+   align-items: center;
+}
+.image1 {
+    float: left;
+    max-width: 300px;
+    height: 300px;
+    width: auto;
+    margin-right: 20px; 
+    margin-left: 250px;
+    border-radius: 10px;
+}
+.history {
+    max-width: 60%;
+    text-align: justify;
+    font-family:'Times New Roman', Times, serif;
+    margin-left: 250px;
+    font-size: 20px;
+}
+#background {
+    font-size: 20px;
+    text-align: justify;
+}
